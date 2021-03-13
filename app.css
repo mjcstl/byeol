@@ -91,6 +91,9 @@ footer {
     .carousel-inner {
         padding: 0;
     }
+    #imgheading {
+        width: 30%;
+    }
 }
 
 @media(min-width: 1200px) {

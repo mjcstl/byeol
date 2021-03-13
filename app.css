@@ -19,7 +19,7 @@ h1 {
 #imgheading {
     border: 2px dashed #ffd7ba;
     border-radius: 50%;
-    width: 20%;
+    width: 15%;
     height: auto;
 }
 
@@ -90,9 +90,6 @@ footer {
 @media(max-width: 800px) {
     .carousel-inner {
         padding: 0;
-    }
-    #imgheading {
-        width: 30%;
     }
 }
 

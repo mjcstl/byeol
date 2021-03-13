@@ -60,25 +60,25 @@ img {
   filter: invert(1);
 }
 
-footer {
-    text-align: center;
-    height: 20px;
-    border-top: 1px solid #ffd7ba;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-}
-
 #spanlink {
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     color: #ac2070;
-    font-family: 'Quintessential', cursive;
-    font-size: 1em;
-    text-decoration: none;
 }
 
 #spanlink:hover {
     color: #c284c2;
+}
+
+#footer {
+    margin-top: 15%;
+    border-top: 1px solid #c284c2;
+    text-align: center;
+}
+#footer #copyright {
+    color: #bdb2ff;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 12px;
 }
 
 @media(max-width: 1200px) {

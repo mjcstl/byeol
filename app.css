@@ -19,6 +19,8 @@ h1 {
 #imgheading {
     border: 2px dashed #ffd7ba;
     border-radius: 50%;
+    width: 30%;
+    height: auto;
 }
 
 #nav {

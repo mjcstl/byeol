@@ -85,11 +85,17 @@ footer {
     .carousel-inner {
         padding: 4rem;
     }
+    #imgheading {
+        width: 20%;
+    }
 }
 
 @media(max-width: 800px) {
     .carousel-inner {
         padding: 0;
+    }
+    #imgheading {
+        width: 30%;
     }
 }
 
@@ -102,5 +108,12 @@ footer {
 @media(min-width: 800px) {
     .carousel-inner {
         padding-top: 0;
+    }
+
+}
+
+@media(max-width: 600px) {
+    #imgheading {
+        width: 30%
     }
 }

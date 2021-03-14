@@ -92,10 +92,7 @@ img {
 
 @media(max-width: 800px) {
     .carousel-inner {
-        padding-top: 0;
-        padding-left: 0;
-        padding-right: 0;
-        padding-bottom: 3rem;
+        padding: 0 0 3rem;
     }
     #imgheading {
         width: 30%;

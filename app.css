@@ -5,18 +5,18 @@ body {
     background-size: cover;
 }
 
-h1 {
+#h1 {
     margin: auto;
-    padding: 3rem;
+    padding: 4rem;
     text-align: left;
     color: #daba06;
     font-family: 'Parisienne', cursive;
     text-shadow: 1px 2px 2px #f3f309;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-h1 span {
-    padding: 2rem;
-}
 
 #imgheading {
     border: 1px solid white;
@@ -24,28 +24,38 @@ h1 span {
     box-shadow: 1px 1px #daba06;
 }
 
-@media(max-width: 600px) {
+#imgheading:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+@media(max-width: 1000px) {
     h1 {
-        text-align: center;
         padding-bottom: 4rem;
     }
 }
 
 #nav {
     margin-top: 2rem;
-    margin-bottom: 2rem;
-    padding: 1rem;
+    margin-bottom: 5rem;
+    padding: 5px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-#nav #navlink {
+#nav:hover {
+    background:rgba(243, 243, 9, 0.2);
+}
+
+#nav svg {
     color: #daba06;
 }
 
-#nav #navlink:hover {
+#nav svg:hover {
     color: #c36f09;
+    transform: scale(1.4);
+    transition: 0.3s;
 }
 
 img {
@@ -63,28 +73,32 @@ img {
 }
 
 #album3 {
-    padding-right: 3rem;
+    padding-right: 4rem;
 }
 
-footer {
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgba(243, 243, 9, 0.2);
     color: #daba06;
     text-shadow: 1px 2px 2px #f3f309;
-    font-family: 'Parisienne', cursive;
-    font-family: 'Satisfy', cursive;
+    font-family: 'Kurale', serif;
+    font-size: 12px;
+    padding-top: 1em;
 }
 
-footer #link {
+#footer svg {
     color: #02cecb;
 }
 
-footer #link:hover {
+#footer svg:hover {
     color: #daba06;
+    transform: scale(1.4);
+    transition: 0.3s;
 }
 
-footer p {
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
+
 
 @media(max-width: 1000px) {
     #album1, #album3 {

@@ -72,10 +72,6 @@ img {
     font-family: 'Caveat', cursive;
 }
 
-#album3 {
-    padding-right: 4rem;
-}
-
 #footer {
     display: flex;
     flex-direction: row;
@@ -98,8 +94,6 @@ img {
     transition: 0.3s;
 }
 
-
-
 @media(max-width: 1000px) {
     #album1, #album3 {
         display: flex;
@@ -108,9 +102,6 @@ img {
     .carousel {
         padding-left: 8rem;
         padding-right: 8rem;
-    }
-    #album3 {
-        padding: 0;
     }
 }
 
